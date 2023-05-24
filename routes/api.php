@@ -20,5 +20,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::post('/transportes','App\Http\Controllers\transporteController@store'); //create datos
 Route::get('/transportes','App\Http\Controllers\transporteController@index');  // mostrar datos
-Route::put('/transportes/{id}','App\http\Controllers\transporteController@update');  // update datos
+Route::put('/transportes/{id}','App\Http\Controllers\transporteController@update');  // update datos
 Route::delete('/transportes/{id}','App\Http\Controllers\transporteController@destroy');  // delete datos
